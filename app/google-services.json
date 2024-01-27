@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "905712298800",
+    "project_id": "yaggesh-chat",
+    "storage_bucket": "yaggesh-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905712298800:android:451329314666abd3a076f5",
+        "android_client_info": {
+          "package_name": "com.example.yaggesh_chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5u_-7JzH0SqJZNs0UQp0imTM9rwoKWaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

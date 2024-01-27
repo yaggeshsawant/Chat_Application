@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00a5ff"
+    android:orientation="vertical"
+    tools:context=".splash"
+    android:weightSum="10">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="8"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <ImageView
+        android:id="@+id/logoimg"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/email" />
+
+    <TextView
+        android:id="@+id/logonameimg"
+        android:layout_width="337dp"
+        android:layout_height="103dp"
+        android:fontFamily="@font/apptext"
+        android:gravity="center"
+        android:text="Y.S MESSENGER"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+   />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical"
+   android:gravity="center_vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/ownone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/spartan_thin"
+        android:textAlignment="center"
+        android:text="From"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/owntwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/spartan_thin"
+        android:textAlignment="center"
+        android:text="Yaggesh sawant"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+      />
+</LinearLayout>
+
+
+</LinearLayout>
